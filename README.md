@@ -1,4 +1,13 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Github Opensource Tool
+
+As a developer, you’ve heard about open source projects. Visual Studio Code, Android, and various linux distributions are examples of high impact open source projects in the wild. Maybe you’ve thought about contributing to one of these, maybe to learn, to add something to your CV, or because you appreciate the project and want to give back, and you open the git repo, only to find that it’s written in a language you don’t know much about, or there aren’t any open issues you can work on.
+<br/><br/>I’ve had this exact problem, and that is why I’d like to build a tool to help.
+
+## Getting Started
+
+- Ensure yarn is installed: `yarn -v`
+- Install dependencies: `yarn`
+- Build and run app in live reload mode: `yarn start`
 
 ## Available Scripts
 
@@ -27,33 +36,11 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
 ### Advanced Configuration
 
