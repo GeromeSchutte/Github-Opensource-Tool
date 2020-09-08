@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Starter from './Starter/Starter';
+import Router from './router';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Starter />
+    <Router/>
   </React.StrictMode>,
   document.getElementById('root')
 );
