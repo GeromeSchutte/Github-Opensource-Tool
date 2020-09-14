@@ -1,9 +1,11 @@
+// @flow
+
 import React from 'react';
 import PropsChild from './PropsChild';
 
 const PropsParent = () => {
     return <section>
-        <PropsChild></PropsChild>
+        <PropsChild colorPosition={1} colors={['red', 'green', 'yellow']}></PropsChild>
     </section>;
 };
 
