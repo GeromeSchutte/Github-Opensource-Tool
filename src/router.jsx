@@ -10,12 +10,14 @@ import {
 import Auth from "./Components/Auth/Auth";
 import Home from "./Components/Home/Home";
 import State from "./Components/Example/State/State";
+import PropsParent from "./Components/Example/Props/PropsParent";
 
 const routes = {
     authPage: '/auth',
     homePage: '/home',
     examples: {
-        state: '/example/state'
+        state: '/example/state',
+        props: '/example/props'
     }
 };
 
@@ -30,6 +32,9 @@ const Router = () => {
             </Route>
             <Route path={routes.examples.state}>
                 <State/>
+            </Route>
+            <Route path={routes.examples.props}>
+                <PropsParent/>
             </Route>
             <Route>
                 <Redirect to={routes.authPage}/>
