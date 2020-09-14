@@ -1,9 +1,10 @@
+// @flow
+
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import PropTypes from 'prop-types';
 import '../../Page.scss';
 
-const Home = (props) => {
+const Home = (props: { history: any[] }) => {
     const logout = () => {
         props.history.push('/auth');
     };
@@ -16,10 +17,6 @@ const Home = (props) => {
             <p>(don't worry, we'll implement this later)</p>
         </div>
     </section>;
-};
-
-Home.propTypes = {
-    history: PropTypes.object.isRequired
 };
 
 export default withRouter(Home);
